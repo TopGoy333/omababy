@@ -3,3 +3,4 @@ make the README file as efficient as you can with as much knowledge as possible 
 we are going to love these changes! we will provide you with all the typical linux apps like bazaar store, dolphin directory, an .md file detailed on how to use omarchy from the start and the first commands you should do
 make sure to add suggestions such as backups and other quality of life features
 babylinuxuser
+we want at least ten apps such as bazaar store, steam, retroarch, parallel, GnuPG, lockbook, brave origin, ark, libreoffice and any other extremely beneficial files
