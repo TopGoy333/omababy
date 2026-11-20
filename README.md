@@ -53,6 +53,14 @@ chmod +x find-omarchy-bloat.sh install-steam.sh debloat-omarchy.sh
 ./debloat-omarchy.sh --audit             # read-only cleanup review
 ```
 
+## 🗑️ Remove This Plugin
+
+To completely remove Omabloat from your system, see [`uninstall.md`](uninstall.md). The quick method is a single command:
+
+```bash
+sudo omarchy plugin uninstall topgoy333.omabloat
+```
+
 Nothing here removes anything without telling you first. Back up your config
 before big changes, and remember: we love the idea of teaching people how to
 use their own software and open source!

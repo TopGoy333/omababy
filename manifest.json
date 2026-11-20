@@ -38,6 +38,7 @@
   ],
   "documentation": [
     "README.md",
+    "uninstall.md",
     "steam-setup.md",
     "debloat-omarchy.md"
   ],
