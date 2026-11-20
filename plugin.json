@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "topgoy333.omabloat",
+  "name": "Omabloat",
+  "version": "1.0.0",
+  "author": "TopGoy333",
+  "license": "MIT",
+  "description": "Safe debloating and Steam setup tools for Omarchy Linux — find bloat, install Steam with ProtonPlus support, and clean up unused packages.",
+  "kinds": [
+    "system-tool"
+  ],
+  "entryPoints": {
+    "systemTool": "plugin.json"
+  },
+  "systemTool": {
+    "displayName": "Omabloat",
+    "description": "Bloat detection, Steam installation, and safe debloating for Omarchy",
+    "category": "System Tools",
+    "allowMultiple": false,
+    "defaultSection": "utilities"
+  },
+  "commands": [
+    {
+      "name": "find-bloat",
+      "description": "Scan system and report installed bloatware (read-only)",
+      "command": "./find-omarchy-bloat.sh"
+    },
+    {
+      "name": "install-steam",
+      "description": "Install Steam with guided setup and ProtonPlus support",
+      "command": "./install-steam.sh"
+    },
+    {
+      "name": "debloat-audit",
+      "description": "Review what could be safely removed (read-only by default)",
+      "command": "./debloat-omarchy.sh --audit"
+    }
+  ],
+  "documentation": [
+    "README.md",
+    "steam-setup.md",
+    "debloat-omarchy.md"
+  ],
+  "tags": ["bloat", "debloat", "steam", "games", "proton", "tools"]
+}
