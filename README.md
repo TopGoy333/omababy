@@ -1,2 +1,1 @@
-this repo is for practice and hopefully a benefit to your omarchy computer. we love linux!
-i am learning myself but doing most of the coding with the help of AI but most of the coding is done from me personally
+If you are new to Omarchy run this script making sure the install was clean and then again when your computer is configured to your liking. Read only.
