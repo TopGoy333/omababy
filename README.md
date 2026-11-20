@@ -1,1 +1,2 @@
 If you are new to Omarchy run this script making sure the install was clean and then again when your computer is configured to your liking. Read only.
+https://github.com/TopGoy333/claude-wrappers is so you can use claude code with free nous hermes and openrouter models. then claude-lm also in there is meant to connect to lm studio so you should have claude code as a local version and a cloud version.
